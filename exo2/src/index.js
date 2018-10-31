@@ -32,7 +32,7 @@ class Resultat extends React.Component {
 class Calculette extends React.Component {
   constructor(props) {
     super(props);
-    state = {
+    this.state = {
       resultat: 0,
     }
     this.calculate = this.calculate.bind(this);
